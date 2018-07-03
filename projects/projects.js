@@ -1,10 +1,8 @@
 (function() {
-    const {
-        apiUrl,
-        errorHandler,
-        tableauInit,
-        getAjaxHeader,
-    } = window.deepConfig;
+    const apiUrl = window.deepConfig.apiUrl,
+        errorHandler = window.deepConfig.errorHandler,
+        tableauInit = window.deepConfig.tableauInit,
+        getAjaxHeader = window.deepConfig.getAjaxHeader;
 
     const projectsFields = [
         'id', 'title', 'description', 'analysis_framework_title',
