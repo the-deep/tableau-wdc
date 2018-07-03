@@ -5,8 +5,10 @@ window.deepConfig = {
         initCallback();
     },
     getAjaxHeader: function() {
+        const username = $('#username').value;
+        const password = $('#password').value;
         return {
-            'Authorization': 'Basic ' + btoa(tableau.username + ":" + tableau.password),
+            'Authorization': 'Basic ' + btoa(username + ":" + password),
         };
     },
     errorHandler: function(error) {
