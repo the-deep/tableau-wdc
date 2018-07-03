@@ -12,7 +12,7 @@ window.deepConfig = {
     errorHandler: function(error) {
         if (error.status === 401) {
             tableau.abortWithError('authentication failed');
-            tableau.abortForAuth();
+            // tableau.abortForAuth();
         } else {
             tableau.abortWithError('error pulling data from server');
         }
