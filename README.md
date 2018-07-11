@@ -2,6 +2,5 @@
 
 
 - [Projects](./projects)
-- [Users](./users)
 - [Leads](./leads)
 - [Entries](./entries)
