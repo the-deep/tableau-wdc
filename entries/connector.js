@@ -64,7 +64,7 @@
     // Download the data
     deepConnector.getData = function(table, doneCallback) {
         const getData = function(resp) {
-            const entries = resp.results.entries;
+            const entries = resp.results;
             const tableData = entries.map(function(entry) {
                 return {
                     id: entry.id,
